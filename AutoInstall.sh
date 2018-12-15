@@ -54,11 +54,9 @@ python cc7.py yakuza.c $ServerIp
 sleep 1
 clear
 
-echo screening port 23
-echo net is on port 420 raw
-screen ./StartServer 23 500 420
-echo "if the screen terminates just run ./startserver 23 500 420"
-sleep 5
+echo screening port is 23
+echo net client is 420 raw
+echo "to run do screen ./StartServer 23 500 420"
 
 
 
